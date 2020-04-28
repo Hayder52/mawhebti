@@ -15,7 +15,14 @@ public class main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+ Myconnection mc = Myconnection.getInstance();
+        Myconnection mc2 = Myconnection.getInstance();
+        System.out.println(mc.hashCode()+ " -- "+mc2.hashCode());
+       PersonneCrud pc = new PersonneCrud();
+      pc.ajouterPersonne();
+     Personne p=new  Personne(23,"hamza","sarraj",345,"manouba");
+      pc.ajouterPersonne2(p);
+     
     }
     
 }
