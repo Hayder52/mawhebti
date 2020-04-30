@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package mawhebtii;
+package com.mawhebti.services;
 
 /**
  *
- * @author bureau
+ * @author Fakhri Argoubi
  */
-public class Administrateur {
+public class PersonneCrude {
     
 }
